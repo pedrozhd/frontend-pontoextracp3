@@ -69,14 +69,14 @@ main {
 }
 
 #start {
-  background-color: #28a745;
+  background-color: #284ea7;
 }
 
 #start:hover {
-  background-color: #39ee61;
-  color: #135221;
+  background-color: #284ea7;
+  color: #0d1937;
   font-weight: bolder;
-  border: 1px solid #135221;
+  border: 1px solid #284ea7;
   transition-duration: 0.5s;
 }
 
@@ -87,5 +87,6 @@ main {
 }
 
 #reset {
+    background-color: #b1de1b;
 
 }

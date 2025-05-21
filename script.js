@@ -47,25 +47,17 @@ function iniciar() {
         updateTime()
     }, 1000)
 
-    time.style.background = 'linear-gradient(to bottom, #39ee61, #28a745, #135221)'
-    time.style.color = 'white'
 }
 
 function parar() {
     clearInterval(intervalId)
     intervalId = null
-
-    time.style.background = 'linear-gradient(to bottom,rgb(253, 26, 49),rgb(161, 10, 25),rgb(92, 2, 11))'
-    time.style.color = 'white'
 }
 
 function zerar() {
     parar()
     segundos = 0
     updateTime()
-
-    time.style.background = 'linear-gradient(to bottom, #4ca0fa,rgb(0, 75, 155), #002b59)'
-    time.style.color = 'white' 
 }
 
 function updateTime() {
